@@ -78,7 +78,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                print(error)
             }
        }catch{
-           print("Error in reading Database \(error)")
+           print("Error\(error)")
        }
 //
         

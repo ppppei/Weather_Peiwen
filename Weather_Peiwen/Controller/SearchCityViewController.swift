@@ -101,7 +101,7 @@ class SearchCityViewController: UIViewController, UISearchBarDelegate, UITableVi
                     realm.add(cityInfo, update: .modified)
                 })
             } catch {
-                print("Error in getting values from db \(error)")
+                print("Error\(error)")
             }
     }
 
